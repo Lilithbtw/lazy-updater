@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Update Prompt at Login
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/env bash -c "sleep 10 && /usr/bin/alacritty -e bash /etc/scripts/startup_scripts/begin_update.sh"
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
