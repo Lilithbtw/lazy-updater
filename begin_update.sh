@@ -42,4 +42,4 @@ printf '\n'
 
 choice_func
 
-sleep 5
+sleep 2
