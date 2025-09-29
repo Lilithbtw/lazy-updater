@@ -20,7 +20,7 @@ This script uses `yay` for package management and works for both official and AU
 1. Clone this repository (or download the script):
 ```bash
 git clone https://github.com/Lilithbtw/lazy-updater.git
-cd arch-update-popup
+cd lazy-updater
 ```
 2. Make the script executable:
 ```bash
